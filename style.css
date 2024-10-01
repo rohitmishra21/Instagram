@@ -1,0 +1,10 @@
+i{
+    font-size: 25px;
+    cursor: pointer;
+}
+.stores::-webkit-scrollbar{
+    display: none;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}

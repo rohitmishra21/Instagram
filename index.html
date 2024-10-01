@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+</head>
+<body>
+    <div class="main w-full h-screen py-4 flex justify-center items-center ">
+       <div class="phone w-[50vh] relative shadow-sm shadow-black h-full ">
+         <div class="container overflow-auto  h-[95%] ">
+            <div class="top  flex justify-between px-2 py-2 items-center">
+               <img src="./img/logo.png" class="w-32" alt="">
+               <div>
+                  <i class="ri-heart-line"></i>
+                  <i class="ri-send-plane-fill"></i>
+               </div>
+            </div>
+            <div class="stores   w-full px-2 h-36 whitespace-nowrap py-2 overflow-x-auto overflow-y-hidden">
+               <div class="story inline-block">
+                <div class=" w-24 h-24 p-1 rounded-full relative">
+                  <img src="./img/my.jpg" class="w-full h-full object-cover  rounded-full" alt="">
+                   <div class="w-7 h-7 border-[3.5px] flex justify-center items-center  bg-blue-600 absolute right-0 bottom-2 rounded-full">
+                    <i class="ri-add-line text-white text-[18px] font-medium "></i>
+                   </div>
+                </div>
+                <h1 class="text-xs text-center  font-semibold">Your story</h1>
+               </div>
+           </div>
+           <div class="myStoryContsner hidden"></div>
+  
+           <div class="postSection relative h-[95%] w-full  bg-green-600">
+              <div class="w-full  bg-blue-500 ">
+                 <div class="absolute flex  flex-col justify-between w-full p-2">
+                 <div class="flex  justify-between">
+                    <div class="flex  items-center gap-2">
+                       <div class="w-10 h-10 bg-black rounded-full">
+                           <img  src="https://images.unsplash.com/photo-1719937206930-84afb0daf141?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMXx8fGVufDB8fHx8fA%3D%3D" class="  object-cover  h-full w-full rounded-full" alt="">
+                       </div>
+                       <h1 class="text-white">rohit</h1>
+                     </div>
+                     <i class="text-white ri-more-2-fill"></i>
+                  </div>
+                 </div>
+                
+                 <i id="postLike" class=" opacity-0 transition-all ease-linear duration-300  absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-7xl text-red-600  ri-heart-fill"></i>
+                 <div class="">
+                  <img src="https://images.unsplash.com/photo-1727409492354-dc440e11eb7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMnx8fGVufDB8fHx8fA%3D%3D"
+                  class="w-full h-[80%] object-cover
+                  
+                  "
+                  id="postImgLike"
+                  alt="">
+                
+
+                  <div class="icon flex justify-between">
+                     <div class="flex items-center">
+                        <i id="addLike" class="ri-heart-line"></i>
+                        <i id="addLikebtn" class="ri-heart-fill hidden text-red-700"></i>
+                        <h1 class="likeNum"></h1>
+                        <i class="ri-chat-3-line ml-3"></i>
+                        <h1>9</h1>
+                        <i class="ri-send-plane-fill ml-3"></i>
+                        <h1>8</h1>
+                     </div>
+                     <div>
+                        <i class="ri-bookmark-line"></i>
+                     </div>
+                   
+                  
+                  </div>
+                  <h1>user name with caption</h1>
+                   <h1>time</h1>
+                </div>
+              </div>
+              <div class="w-full h-full bg-blue-900"></div>
+              <div class="w-full h-full bg-blue-500"></div>
+              <div class="w-full h-full bg-blue-300"></div>
+              <div class="w-full h-full bg-blue-900"></div>
+           </div>
+         </div>
+      
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
